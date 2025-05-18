@@ -1,0 +1,63 @@
+/* Stili per il banner dei cookie */
+#cookie-banner {
+    background-color: white;
+    border-top: 3px solid var(--primary-color);
+    font-size: 0.95rem;
+}
+
+#cookie-banner .cookie-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#cookie-banner p {
+    margin: 0;
+    flex: 1;
+    min-width: 280px;
+}
+
+#cookie-banner a {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.cookie-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+#cookie-accept {
+    background-color: var(--primary-color);
+}
+
+#cookie-reject {
+    background-color: transparent;
+    color: var(--text-color);
+    border: 1px solid #ddd;
+}
+
+#cookie-reject:hover {
+    background-color: #f0f0f0;
+}
+
+@media screen and (max-width: 768px) {
+    #cookie-banner .cookie-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .cookie-buttons {
+        width: 100%;
+    }
+    
+    #cookie-accept, #cookie-reject {
+        flex: 1;
+        text-align: center;
+    }
+}

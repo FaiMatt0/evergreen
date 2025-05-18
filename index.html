@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evergreen - Costruzioni Eco-sostenibili</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cookies.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Libreria AOS per animazioni allo scorrimento -->
@@ -40,7 +41,7 @@
         <div class="overlay"></div>
         <div class="container hero-container">
             <div class="hero-text-column" data-aos="fade-right" data-aos-duration="1000">
-                <h1>Costruzioni Eco-sostenibili per il tuo futuro</h1>
+                <h1>Costruzioni<br>Eco-sostenibil<br>per il tuo futuro</h1>
                 <p>Realizziamo lavori interni e coperture con un occhio all'ambiente</p>
                 <a href="#contatti" class="btn btn-large btn-animated">Richiedi Preventivo</a>
             </div>
@@ -59,22 +60,22 @@
             </div>
             <div class="servizi-grid">
                 <div class="servizio-card" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="icon"><img src="animated/house.gif" alt="House" class="icon-gif"></div>
+                    <div class="icon"><img src="animated/house.gif" alt="House" class="icon-gif" style="width: 120px; height: auto;"></div>
                     <h3>Ristrutturazioni Interne</h3>
                     <p>Rinnoviamo gli spazi interni con materiali sostenibili e finiture di qualità.</p>
                 </div>
                 <div class="servizio-card" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="icon"><img src="animated/construction.gif" alt="Tools" class="icon-gif"></div>
+                    <div class="icon"><img src="animated/construction.gif" alt="Tools" class="icon-gif" style="width: 120px; height: auto;"></div>
                     <h3>Lavori di Muratura</h3>
                     <p>Realizziamo opere murarie con tecniche tradizionali e innovative.</p>
                 </div>
                 <div class="servizio-card" data-aos="zoom-in" data-aos-delay="300">
-                    <div class="icon"><img src="animated/ruler.gif" alt="Ruler" class="icon-gif"></div>
+                    <div class="icon"><img src="animated/ruler.gif" alt="Ruler" class="icon-gif" style="width: 120px; height: auto;"></div>
                     <h3>Coperture e Tetti</h3>
                     <p>Realizzazioni di coperture efficienti e durature nel tempo.</p>
                 </div>
                 <div class="servizio-card" data-aos="zoom-in" data-aos-delay="400">
-                    <div class="icon"><img src="animated/eco-friendly.gif" alt="Eco-friendly" class="icon-gif"></div>
+                    <div class="icon"><img src="animated/eco-friendly.gif" alt="Eco-friendly" class="icon-gif" style="width: 120px; height: auto;"></div>
                     <h3>Soluzioni Eco-sostenibili</h3>
                     <p>Materiali e tecniche a basso impatto ambientale per il tuo edificio.</p>
                 </div>
@@ -126,6 +127,27 @@
                         </div>
                     </div>
                 </div>
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="500">
+                    <img src="img/portfolio-5.jpg" alt="Facciata ecosostenibile">
+                    <div class="overlay">
+                        <div class="portfolio-info">
+                            <h3>Facciata Eco</h3>
+                            <p>Rivestimento con materiali naturali</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="600">
+                    <img src="img/portfolio-6.jpg" alt="Interni in legno">
+                    <div class="overlay">
+                        <div class="portfolio-info">
+                            <h3>Interni Naturali</h3>
+                            <p>Finiture in legno certificato</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-btn-container">
+                <a href="gallery.html" class="btn btn-large">Vedi tutta la galleria</a>
             </div>
         </div>
     </section>
@@ -171,42 +193,49 @@
                 <h2>Contattaci</h2>
                 <p>Siamo a disposizione per un preventivo gratuito</p>
             </div>
-            <div class="contatti-container">
-                <div class="contatti-info" data-aos="fade-right">
-                    <div class="info-item">
-                        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
-                        <h4>Sede</h4>
-                        <p>Via Casagrande 20, San Quirino (PN) 33080</p>
+            <div class="contatti-wrapper">
+                <div class="contatti-info" data-aos="fade-up">
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h3>Sede</h3>
+                        <p>Via Casagrande 20<br>San Quirino (PN) 33080</p>
                     </div>
-                    <div class="info-item">
-                        <div class="icon"><i class="fas fa-phone"></i></div>
-                        <h4>Telefono</h4>
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-phone"></i></div>
+                        <h3>Telefono</h3>
                         <p>+39 3404606548</p>
                     </div>
-                    <div class="info-item">
-                        <div class="icon"><i class="fas fa-envelope"></i></div>
-                        <h4>Email</h4>
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                        <h3>Email</h3>
                         <p>evergreen.pordenone@gmail.com</p>
                     </div>
-                    <div class="info-item">
-                        <div class="icon"><i class="fas fa-clock"></i></div>
-                        <h4>Orari</h4>
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-clock"></i></div>
+                        <h3>Orari</h3>
                         <p>Lun-Ven: 8:00-18:00</p>
                     </div>
                 </div>
-                <div class="contatti-form" data-aos="fade-left">
-                    <form action="#" method="post">
-                        <div class="form-group">
-                            <input type="text" name="nome" placeholder="Nome e Cognome" required>
+                <div class="contatti-form-wrapper" data-aos="fade-up" data-aos-delay="200">
+                    <form class="contatti-form">
+                        <h3>Inviaci un messaggio</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nome">Nome e Cognome</label>
+                                <input type="text" id="nome" name="nome" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="telefono">Telefono</label>
+                                <input type="tel" id="telefono" name="telefono" required>
+                            </div>
                         </div>
                         <div class="form-group">
-                            <input type="email" name="email" placeholder="Email" required>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
                         </div>
                         <div class="form-group">
-                            <input type="tel" name="telefono" placeholder="Telefono" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea name="messaggio" placeholder="Il tuo messaggio" required></textarea>
+                            <label for="messaggio">Il tuo messaggio</label>
+                            <textarea id="messaggio" name="messaggio" rows="5" required></textarea>
                         </div>
                         <div class="form-group">
                             <button type="submit" class="btn btn-block">Invia Richiesta</button>
@@ -220,22 +249,119 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
+            <div class="footer-grid">
+                <div class="footer-info">
                     <h2>EVERGREEN <span class="highlight">srl</span></h2>
-                    <p>Costruzioni eco-sostenibili per un futuro migliore</p>
+                    <p>Costruzioni eco-sostenibili per un futuro migliore. Da oltre 10 anni realizziamo progetti di qualità rispettando l'ambiente.</p>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone"></i> +39 3404606548</p>
+                        <p><i class="fas fa-envelope"></i> evergreen.pordenone@gmail.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Via Casagrande 20, San Quirino (PN)</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="work-in-progress.html"><i class="fab fa-facebook-f"></i></a>
+                        <a href="work-in-progress.html"><i class="fab fa-instagram"></i></a>
+                        <a href="work-in-progress.html"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
                 </div>
-                <div class="social-links">
-                    <a href="work-in-progress.html"><i class="fab fa-facebook-f"></i></a>
-                    <a href="work-in-progress.html"><i class="fab fa-instagram"></i></a>
-                    <a href="work-in-progress.html"><i class="fab fa-linkedin-in"></i></a>
+                <div class="footer-links">
+                    <h3>Link Utili</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#servizi">Servizi</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#chi-siamo">Chi Siamo</a></li>
+                        <li><a href="#contatti">Contatti</a></li>
+                    </ul>
+                </div>
+                <div class="footer-servizi">
+                    <h3>I Nostri Servizi</h3>
+                    <ul>
+                        <li>Ristrutturazioni Interne</li>
+                        <li>Lavori di Muratura</li>
+                        <li>Coperture e Tetti</li>
+                        <li>Soluzioni Eco-sostenibili</li>
+                        <li>Isolamento Termico</li>
+                        <li>Riqualificazione Energetica</li>
+                    </ul>
                 </div>
             </div>
             <div class="copyright">
                 <p>&copy; 2025 Evergreen srl - P.IVA 01947410930 - Tutti i diritti riservati</p>
+                <ul class="footer-policy">
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Termini e Condizioni</a></li>
+                    <li><a href="cookies.html">Cookie Policy</a></li>
+                </ul>
             </div>
         </div>
     </footer>
+
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-consent-banner" class="cookie-banner">
+        <div class="cookie-content">
+            <div class="cookie-text">
+                <h4>Utilizziamo i cookie</h4>
+                <p>Questo sito utilizza cookie tecnici e, previo tuo consenso, cookie di profilazione e di terze parti per migliorare la tua esperienza di navigazione. <a href="cookies.html">Maggiori informazioni</a></p>
+            </div>
+            <div class="cookie-buttons">
+                <button id="cookie-accept-all" class="cookie-btn cookie-btn-primary">Accetta tutti</button>
+                <button id="cookie-preferences" class="cookie-btn cookie-btn-secondary">Preferenze</button>
+                <button id="cookie-reject-all" class="cookie-btn cookie-btn-tertiary">Rifiuta tutti</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cookie Preferences Modal -->
+    <div id="cookie-preferences-modal" class="cookie-modal">
+        <div class="cookie-modal-content">
+            <div class="cookie-modal-header">
+                <h3>Preferenze Cookie</h3>
+                <button class="cookie-modal-close">&times;</button>
+            </div>
+            <div class="cookie-modal-body">
+                <div class="cookie-preference-item">
+                    <div class="cookie-switch-container">
+                        <label class="cookie-switch">
+                            <input type="checkbox" id="cookie-necessary" checked disabled>
+                            <span class="cookie-slider"></span>
+                        </label>
+                    </div>
+                    <div class="cookie-preference-text">
+                        <h4>Cookie tecnici essenziali</h4>
+                        <p>Questi cookie sono necessari per il funzionamento del sito e non possono essere disattivati.</p>
+                    </div>
+                </div>
+                <div class="cookie-preference-item">
+                    <div class="cookie-switch-container">
+                        <label class="cookie-switch">
+                            <input type="checkbox" id="cookie-analytics">
+                            <span class="cookie-slider"></span>
+                        </label>
+                    </div>
+                    <div class="cookie-preference-text">
+                        <h4>Cookie analitici</h4>
+                        <p>Ci aiutano a capire come utilizzi il nostro sito per migliorarne l'esperienza.</p>
+                    </div>
+                </div>
+                <div class="cookie-preference-item">
+                    <div class="cookie-switch-container">
+                        <label class="cookie-switch">
+                            <input type="checkbox" id="cookie-marketing">
+                            <span class="cookie-slider"></span>
+                        </label>
+                    </div>
+                    <div class="cookie-preference-text">
+                        <h4>Cookie di marketing</h4>
+                        <p>Utilizzati per mostrarti annunci pertinenti in base ai tuoi interessi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cookie-modal-footer">
+                <button id="cookie-save-preferences" class="cookie-btn cookie-btn-primary">Salva preferenze</button>
+            </div>
+        </div>
+    </div>
 
     <!-- WhatsApp Floating Button -->
     <a href="https://wa.me/393404606548" class="whatsapp-float" target="_blank">
@@ -244,6 +370,7 @@
     </a>
     
     <script src="js/script.js"></script>
+    <script src="js/cookies.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({
