@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evergreen - Costruzioni Eco-sostenibili</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Libreria AOS per animazioni allo scorrimento -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="loghi/logo-navbar.png" alt="Evergreen Logo" class="nav-logo-img">
+                <h1 class="animated-text">EVERGREEN</h1>
+            </div>
+            <nav>
+                <ul class="animated-nav">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#servizi" class="nav-link">Servizi</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#chi-siamo" class="nav-link">Chi Siamo</a></li>
+                    <li><a href="#contatti" class="btn nav-btn pulse">Contattaci</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-text-column" data-aos="fade-right" data-aos-duration="1000">
+                <h1>Costruzioni Eco-sostenibili per il tuo futuro</h1>
+                <p>Realizziamo lavori interni e coperture con un occhio all'ambiente</p>
+                <a href="#contatti" class="btn btn-large btn-animated">Richiedi Preventivo</a>
+            </div>
+            <div class="hero-logo-column" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                <img src="loghi/logo.png" alt="Evergreen Logo" class="logo-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Servizi -->
+    <section id="servizi" class="servizi">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>I Nostri Servizi</h2>
+                <p>Soluzioni complete per privati e piccole imprese</p>
+            </div>
+            <div class="servizi-grid">
+                <div class="servizio-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="icon"><img src="animated/house.gif" alt="House" class="icon-gif"></div>
+                    <h3>Ristrutturazioni Interne</h3>
+                    <p>Rinnoviamo gli spazi interni con materiali sostenibili e finiture di qualità.</p>
+                </div>
+                <div class="servizio-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon"><img src="animated/construction.gif" alt="Tools" class="icon-gif"></div>
+                    <h3>Lavori di Muratura</h3>
+                    <p>Realizziamo opere murarie con tecniche tradizionali e innovative.</p>
+                </div>
+                <div class="servizio-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="icon"><img src="animated/ruler.gif" alt="Ruler" class="icon-gif"></div>
+                    <h3>Coperture e Tetti</h3>
+                    <p>Realizzazioni di coperture efficienti e durature nel tempo.</p>
+                </div>
+                <div class="servizio-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="icon"><img src="animated/eco-friendly.gif" alt="Eco-friendly" class="icon-gif"></div>
+                    <h3>Soluzioni Eco-sostenibili</h3>
+                    <p>Materiali e tecniche a basso impatto ambientale per il tuo edificio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>I Nostri Lavori</h2>
+                <p>Alcuni dei progetti realizzati dai nostri esperti</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="100">
+                    <img src="img/portfolio-1.jpg" alt="Ristrutturazione appartamento">
+                    <div class="overlay">
+                        <div class="portfolio-info">
+                            <h3>Appartamento Moderno</h3>
+                            <p>Ristrutturazione completa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="200">
+                    <img src="img/portfolio-2.jpg" alt="Rifacimento tetto">
+                    <div class="overlay">
+                        <div class="portfolio-info">
+                            <h3>Copertura Villa</h3>
+                            <p>Rifacimento tetto con materiali isolanti</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="300">
+                    <img src="img/portfolio-3.jpg" alt="Locale commerciale">
+                    <div class="overlay">
+                        <div class="portfolio-info">
+                            <h3>Locale Commerciale</h3>
+                            <p>Realizzazione spazi interni</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="400">
+                    <img src="img/portfolio-4.jpg" alt="Giardino pensile">
+                    <div class="overlay">
+                        <div class="portfolio-info">
+                            <h3>Green Roof</h3>
+                            <p>Terrazzo con giardino pensile</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chi Siamo -->
+    <section id="chi-siamo" class="chi-siamo">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Chi Siamo</h2>
+                <p>La nostra storia e i nostri valori</p>
+            </div>
+            <div class="chi-siamo-content">
+                <div class="chi-siamo-text" data-aos="fade-right">
+                    <p>Evergreen srl nasce dalla passione per l'edilizia e il rispetto per l'ambiente. Da oltre 10 anni operiamo nel settore delle costruzioni e ristrutturazioni, specializzandoci in soluzioni che coniugano qualità, durata e sostenibilità.</p>
+                    <p>Il nostro team è composto da professionisti qualificati che mettono la loro esperienza al servizio di ogni progetto, grande o piccolo che sia. La soddisfazione del cliente è la nostra priorità.</p>
+                    <p>Scegliamo con cura i materiali, privilegiando quelli a basso impatto ambientale e lavoriamo con fornitori che condividono i nostri valori di sostenibilità ed eccellenza.</p>
+                </div>
+                <div class="chi-siamo-values" data-aos="fade-left">
+                    <div class="value-item" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="icon"><img src="animated/check.gif" alt="Check" class="icon-gif"></div>
+                        <h4>Qualità</h4>
+                        <p>Materiali eccellenti e manodopera specializzata</p>
+                    </div>
+                    <div class="value-item" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="icon"><img src="animated/eco-friendly.gif" alt="Eco" class="icon-gif"></div>
+                        <h4>Sostenibilità</h4>
+                        <p>Soluzioni a basso impatto ambientale</p>
+                    </div>
+                    <div class="value-item" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="icon"><img src="animated/handshake.gif" alt="Handshake" class="icon-gif"></div>
+                        <h4>Affidabilità</h4>
+                        <p>Rispetto delle tempistiche e degli impegni presi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contatti -->
+    <section id="contatti" class="contatti">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Contattaci</h2>
+                <p>Siamo a disposizione per un preventivo gratuito</p>
+            </div>
+            <div class="contatti-container">
+                <div class="contatti-info" data-aos="fade-right">
+                    <div class="info-item">
+                        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h4>Sede</h4>
+                        <p>Via Casagrande 20, San Quirino (PN) 33080</p>
+                    </div>
+                    <div class="info-item">
+                        <div class="icon"><i class="fas fa-phone"></i></div>
+                        <h4>Telefono</h4>
+                        <p>+39 3404606548</p>
+                    </div>
+                    <div class="info-item">
+                        <div class="icon"><i class="fas fa-envelope"></i></div>
+                        <h4>Email</h4>
+                        <p>evergreen.pordenone@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <div class="icon"><i class="fas fa-clock"></i></div>
+                        <h4>Orari</h4>
+                        <p>Lun-Ven: 8:00-18:00</p>
+                    </div>
+                </div>
+                <div class="contatti-form" data-aos="fade-left">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <input type="text" name="nome" placeholder="Nome e Cognome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="telefono" placeholder="Telefono" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="messaggio" placeholder="Il tuo messaggio" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-block">Invia Richiesta</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>EVERGREEN <span class="highlight">srl</span></h2>
+                    <p>Costruzioni eco-sostenibili per un futuro migliore</p>
+                </div>
+                <div class="social-links">
+                    <a href="work-in-progress.html"><i class="fab fa-facebook-f"></i></a>
+                    <a href="work-in-progress.html"><i class="fab fa-instagram"></i></a>
+                    <a href="work-in-progress.html"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Evergreen srl - P.IVA 01947410930 - Tutti i diritti riservati</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/393404606548" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Chatta con noi!</span>
+    </a>
+    
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 120,
+            once: true
+        });
+    </script>
+</body>
+</html>
