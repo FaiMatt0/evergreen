@@ -1208,4 +1208,58 @@ footer {
     }    .footer-grid {
         grid-template-columns: 1fr;
     }
+
+    /* Centratura elementi Chi Siamo nella versione mobile con larghezza maggiore */
+    .chi-siamo-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .chi-siamo-text {
+        text-align: center;
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    
+    .chi-siamo-values {
+        flex-direction: column;
+        width: 100%;
+        max-width: 500px; /* Aumentato da 350px a 500px per rendere gli elementi più larghi */
+        margin: 0 auto;
+    }
+    
+    .value-item {
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 30px 25px; /* Aumentato il padding interno */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .value-item .icon {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .value-item h4 {
+        font-size: 1.4rem; /* Aumentato leggermente il font size */
+        text-align: center;
+        width: 100%;
+        margin-bottom: 15px; /* Aggiunto più spazio sotto il titolo */
+    }
+    
+    .value-item p {
+        text-align: center;
+        width: 100%;
+        font-size: 1.05rem; /* Leggermente aumentato il font size del testo */
+    }
+    
+    .icon-gif {
+        display: block;
+        margin: 0 auto 20px auto; /* Aggiunto più spazio sotto l'icona */
+        width: 100px; /* Dimensione fissa più grande per l'icona */
+        height: auto;
+    }
 }
+
